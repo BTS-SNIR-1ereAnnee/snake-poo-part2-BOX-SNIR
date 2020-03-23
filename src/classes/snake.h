@@ -37,6 +37,8 @@ public:
     * \return true en cas de collision
     */
     bool checkColisionWithBoard();
+    
+    bool checkColisionWithSnake();
 
 
 private:
