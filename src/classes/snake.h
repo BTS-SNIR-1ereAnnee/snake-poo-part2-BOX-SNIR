@@ -46,4 +46,6 @@ private:
     Point serpent[50];
     /** longueur du serpent */
     int longeur = 3;
+    
+    char m_caractere;
 };
