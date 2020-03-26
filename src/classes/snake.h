@@ -39,6 +39,9 @@ public:
     bool checkColisionWithBoard();
     
     bool checkColisionWithSnake();
+    
+    int getm_caractere() const;
+    void setm_caractere(int val);
 
 
 private:
@@ -47,5 +50,6 @@ private:
     /** longueur du serpent */
     int longeur = 3;
     
-    char m_caractere;
+    
+    int m_c;
 };

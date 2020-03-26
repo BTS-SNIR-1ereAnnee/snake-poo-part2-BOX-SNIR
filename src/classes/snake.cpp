@@ -83,5 +83,15 @@ bool snake::checkColisionWithSnake()
         return false;
 }
 
+int snake::getm_caractere() const
+{
+    return m_c;
+}
+
+void snake::setm_caractere(int val)
+{
+    m_c = val;
+}
+    
 
 
